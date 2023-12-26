@@ -1,5 +1,5 @@
 {
-  "name": "PAGE_A_DAY_SERIES",
+  "name": "page-a-day-series",
   "private": true,
   "scripts": {
     "build": "turbo build",

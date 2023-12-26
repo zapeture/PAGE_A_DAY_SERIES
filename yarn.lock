@@ -560,9 +560,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@repo/eslint-config@workspace:packages/eslint-config"
   dependencies:
+    "@types/eslint": "npm:^8"
     "@typescript-eslint/eslint-plugin": "npm:^6.11.0"
     "@typescript-eslint/parser": "npm:^6.11.0"
     "@vercel/style-guide": "npm:^5.1.0"
+    eslint: "npm:^8.56.0"
     eslint-config-prettier: "npm:^9.0.0"
     eslint-config-turbo: "npm:^1.10.12"
     eslint-plugin-only-warn: "npm:^1.1.0"
@@ -687,7 +689,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^8.44.7":
+"@types/eslint@npm:^8, @types/eslint@npm:^8.44.7":
   version: 8.56.0
   resolution: "@types/eslint@npm:8.56.0"
   dependencies:
@@ -1058,17 +1060,6 @@ __metadata:
   checksum: a28cdc1987257a42189746874bdc34c3e9f0b16ef26dfdeded120c6dde7ee436e876459182471974b850d9c66f882fb9e3c80112f19b7a8822ddcd548ec69fe0
   languageName: node
   linkType: hard
-
-"PAGE_A_DAY_SERIES@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "PAGE_A_DAY_SERIES@workspace:."
-  dependencies:
-    "@repo/eslint-config": "npm:*"
-    "@repo/typescript-config": "npm:*"
-    prettier: "npm:^3.1.0"
-    turbo: "npm:latest"
-  languageName: unknown
-  linkType: soft
 
 "acorn-jsx@npm:^5.3.2":
   version: 5.3.2
@@ -2421,7 +2412,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.53.0":
+"eslint@npm:^8.53.0, eslint@npm:^8.56.0":
   version: 8.56.0
   resolution: "eslint@npm:8.56.0"
   dependencies:
@@ -4419,6 +4410,17 @@ __metadata:
   checksum: a5ac1bf1f33f667a1c85fd61744672d9364534a1bb68a676ef920091b735ed8a10fc2b57385909e34822a2147b10a898dd79139b07dae0dbd568561d5c40a81b
   languageName: node
   linkType: hard
+
+"page-a-day-series@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "page-a-day-series@workspace:."
+  dependencies:
+    "@repo/eslint-config": "npm:*"
+    "@repo/typescript-config": "npm:*"
+    prettier: "npm:^3.1.0"
+    turbo: "npm:latest"
+  languageName: unknown
+  linkType: soft
 
 "param-case@npm:^2.1.0":
   version: 2.1.1
