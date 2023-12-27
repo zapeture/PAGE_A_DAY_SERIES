@@ -10,11 +10,28 @@
   width: 100%;
 }
 
-.main-content-wrapper{
+.main-content-wrapper {
   max-width: 1200px;
 }
 
 .image-wrapper {
   max-width: calc(var(--page-max-width) * 0.66);
   margin: 0 auto;
+}
+
+.card-image-wrapper {
+  background: var(--accent1-color) !important;
+  width: 100%;
+  max-width: clamp(80%, 90%, 1200px);
+  aspect-ratio: 331/211;
+  margin-top: 20px;
+}
+
+.showcase-card {
+  border: none !important;
+  border-radius: 0px !important;
+  background-color: var(--primary-color);
+  width: 100%;
+  margin-inline: auto;
+  aspect-ratio: 377.684/295.066;
 }
