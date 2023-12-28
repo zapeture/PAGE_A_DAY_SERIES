@@ -11,11 +11,16 @@
   },
   "dependencies": {
     "@repo/ui": "*",
+    "@sanity/image-url": "1",
+    "@sanity/vision": "3",
     "bootstrap": "5.3.2",
     "framer-motion": "^10.16.16",
     "next": "^14.0.3",
+    "next-sanity": "^7.0.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sanity": "3",
+    "styled-components": "6"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.0.2",
