@@ -1,8 +1,9 @@
 "use client"
 import { motion } from "framer-motion"
+import { Project } from '../model/project';
 
-export default function ShowcaseItem(): JSX.Element {
-  return <motion.a className="col-12 col-md-6 col-lg-4 text-decoration-none" href="https://google.com" target="_blank">
+export default function ShowcaseItem({project}: {project: Project}): JSX.Element {
+  return <motion.a className="col-12 col-md-6 col-lg-4 text-decoration-none" href={project.url} target="_blank">
     <div className="card showcase-card">
       <motion.div className="image-wrapper card-image-wrapper" whileHover={{ scale: 1.02, translateY: -10 }} transition={{
         ease: "easeInOut",
@@ -10,7 +11,7 @@ export default function ShowcaseItem(): JSX.Element {
       }}>
       </motion.div>
       <div className="card-body">
-        <h5 className="card-title">An app</h5>
+        <h5 className="card-title">{project.title}</h5>
       </div>
     </div>
   </motion.a>;
