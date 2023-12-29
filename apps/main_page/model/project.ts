@@ -1,6 +1,9 @@
 export interface ThumbNail {
   alt: string;
-  asset: any;
+  asset: {
+    _ref: string;
+    _type: string;
+  };
   _type: string;
 }
 
