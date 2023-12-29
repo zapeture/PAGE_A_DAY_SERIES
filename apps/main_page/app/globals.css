@@ -25,6 +25,7 @@
   max-width: clamp(80%, 90%, 1200px);
   aspect-ratio: 331/211;
   margin-top: 20px;
+  position: relative;
 }
 
 .card-image-wrapper:hover {
