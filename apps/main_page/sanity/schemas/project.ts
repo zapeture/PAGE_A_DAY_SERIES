@@ -39,6 +39,18 @@ export default defineType({
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
+    }),
+    defineField({
+      name: 'status',
+      title: 'Status',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Live', value: 'live'},
+          {title: 'Upcoming', value: 'upcoming'}
+        ],
+      },
+      initialValue: 'upcoming'
     })
   ],
 

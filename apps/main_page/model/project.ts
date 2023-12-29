@@ -14,6 +14,7 @@ export interface Project {
   url: string;
   _createdAt: string;
   _rev: string;
+  status: "live" | "upcoming";
 }
 
 export type Projects = Project[];

@@ -1,5 +1,5 @@
 import { getProjects } from "../../queries/projects";
-import { Project, Projects } from "../model/project";
+import { Project, Projects } from "../../model/project";
 import ShowcaseItem from "./ShowcaseItem";
 
 export default async function ShowcaseGrid() {

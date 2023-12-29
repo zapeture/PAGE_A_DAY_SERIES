@@ -42,3 +42,29 @@
   margin-inline: auto;
   aspect-ratio: 377.684/295.066;
 }
+
+.upcoming {
+  position: relative;
+  pointer-events: none;
+}
+.upcoming::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-inline: 12px;
+}
+
+.upcoming::before {
+  content: "Upcoming";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+  font-size: 1.2rem;
+}

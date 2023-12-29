@@ -1,4 +1,4 @@
-import { Projects } from "../app/model/project";
+import { Projects } from "../model/project";
 import { sanityUrlBuilder } from "../helpers/url";
 
 export const getProjects = async (): Promise<Projects> => {
