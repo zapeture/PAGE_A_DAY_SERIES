@@ -10,4 +10,3 @@
 
 - [Page 1: Test Page](https://fortunezviregei.com/page-a-day/01-hello-world/)
   - [Source Code] (https://fortunezviregei.com/page-a-day/01-hello-world/)
-
