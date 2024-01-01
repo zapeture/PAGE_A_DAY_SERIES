@@ -12,6 +12,7 @@ export default {
       },
       fontFamily: {
         'sans-serif': ['"Roboto"', 'sans-serif'],
+        'sans': ['"Open Sans"', 'sans-serif'],
       }
     },
     screens: {
