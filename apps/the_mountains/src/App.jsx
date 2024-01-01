@@ -1,5 +1,14 @@
+import Header from "./components/Header";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  return <main className="main w-full">
+    <Header />
+    <section className="section about"></section>
+    <section className="section travel"></section>
+    <section className="section showcase-image"></section>
+    <section className="section places"></section>
+    <section className="section showcase-image"></section>
+    <section className="section new-road"></section>
+    <footer className="section new-road"></footer>
+  </main>
 }
