@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Header from "./components/Header";
+import ShowcaseImage from "./components/ShowcaseImage";
 import Travel from "./components/Travel";
 
 export default function App() {
@@ -7,7 +8,7 @@ export default function App() {
     <Header />
     <About />
     <Travel />
-    <section className="section showcase-image"></section>
+    <ShowcaseImage image_url={"/images/deer_photo.jpg"}/>
     <section className="section places"></section>
     <section className="section showcase-image"></section>
     <section className="section new-road"></section>
