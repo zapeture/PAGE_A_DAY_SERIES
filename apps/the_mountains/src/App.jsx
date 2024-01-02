@@ -1,11 +1,12 @@
 import About from "./components/About";
 import Header from "./components/Header";
+import Travel from "./components/Travel";
 
 export default function App() {
   return <main className="main w-full">
     <Header />
     <About />
-    <section className="section travel"></section>
+    <Travel />
     <section className="section showcase-image"></section>
     <section className="section places"></section>
     <section className="section showcase-image"></section>
