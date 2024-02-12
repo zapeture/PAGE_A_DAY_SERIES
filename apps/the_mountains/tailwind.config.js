@@ -13,11 +13,20 @@ export default {
       }
     },
     screens: {
-      mobile: "640px",
-      tablet: "768px",
-      laptop: "1024px",
-      desktop: "1280px",
-      "large-desktop": "1440px"
+      // up breakpoints
+      small_mobile_up: "320px",
+      mobile_up: "640px",
+      tablet_up: "768px",
+      laptop_up: "1024px",
+      desktop_up: "1280px",
+      large_desktop_up: "1440px",
+      // down breakpoints
+      small_mobile_down: { max: "319px" },
+      mobile_down: { max: "639px" },
+      tablet_down: { max: "767px" },
+      laptop_down: { max: "1023px" },
+      desktop_down: { max: "1279px" },
+      large_desktop_down: { max: "1439px" }
     }
   },
   plugins: []
