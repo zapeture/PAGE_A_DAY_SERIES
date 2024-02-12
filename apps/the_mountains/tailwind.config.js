@@ -27,6 +27,13 @@ export default {
       laptop_down: { max: "1023px" },
       desktop_down: { max: "1279px" },
       large_desktop_down: { max: "1439px" }
+    },
+    container: {
+      center: true,
+      padding: "1rem"
+    },
+    colors: {
+      dark_mountain: "#111111"
     }
   },
   plugins: []

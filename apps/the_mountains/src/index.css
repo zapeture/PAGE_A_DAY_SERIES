@@ -6,3 +6,27 @@ html,
 body {
   font-family: "Roboto", sans-serif;
 }
+
+@layer components {
+  .core-container {
+    @apply w-full mx-auto p-4;
+  }
+
+  @media (min-width: 768px) {
+    .core-container {
+      @apply max-w-[768px];
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .core-container {
+      @apply max-w-[1024px];
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .core-container {
+      @apply max-w-[1280px];
+    }
+  }
+}
