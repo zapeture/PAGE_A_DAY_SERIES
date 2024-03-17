@@ -33,7 +33,7 @@ export default {
       padding: "1rem"
     },
     colors: {
-      dark_mountain: "#111111"
+      dark_mountain: "#000"
     }
   },
   plugins: []
