@@ -44,3 +44,7 @@ yarn-error.log*
 !.yarn/plugins
 .pnp.*
 .yarn*
+
+# lockfiles
+package-lock.json
+yarn.lock
