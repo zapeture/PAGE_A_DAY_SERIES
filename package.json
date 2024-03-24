@@ -1,6 +1,12 @@
 {
   "name": "page-a-day-series",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Fortune Zviregei",
+    "email": "fortunechainz@gmail.com",
+    "url": "https://fortunezviregei.com"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
