@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 4040",
+    "dev:turbo": "next dev -p 4040 --turbo",
     "build": "next build",
     "start": "next start -p 4040",
     "lint": "next lint"
