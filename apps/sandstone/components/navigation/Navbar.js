@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="navbar bg-transparent fixed-top">
+    <nav className="navbar bg-transparent">
       <div className="container-lg">
         <Link className="navbar-brand" href="/" aria-label='Logo Branding'></Link>
         <button className="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"

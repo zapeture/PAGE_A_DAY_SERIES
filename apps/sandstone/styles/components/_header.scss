@@ -1,10 +1,12 @@
+@import "../variables";
+
 .header {
   background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/0300a99382c25c3fb2d428de/1.jpg?version=") no-repeat center center;
-  min-height: 500px;
+  min-height: 440px;
 
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     min-height: 700px;
-    background-position: center 80%;
+    background-position: center right;
   }
 
   .navbar {
@@ -40,6 +42,37 @@
       a {
         color: #fff;
         text-align: center;
+      }
+    }
+  }
+
+  .hero {
+
+    .card {
+      width: 100%;
+      border: 10px solid $sandstone-orange;
+      background: transparent;
+      color: $sandstone-orange;
+      border-radius: 0px;
+      text-align: right;
+      min-height: 340px;
+
+      .card-body {
+        word-spacing: 5px;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      min-height: 600px;
+
+      .card {
+        position: relative;
+        min-height: 540px;
+
+        .card-body {
+          bottom: 10px;
+          position: absolute;
+        }
       }
     }
   }
