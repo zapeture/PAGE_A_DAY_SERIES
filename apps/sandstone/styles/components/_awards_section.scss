@@ -1,0 +1,21 @@
+.awards-section {
+  .col-bg {
+    min-height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      min-height: 680px;
+    }
+
+    &:first-child {
+      background-image: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/844edfb7915c5ff0882ae058/pexelsphoto3878022.jpeg');
+    }
+
+    &:last-child {
+      background-image: url('https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/4d38214e97275d6eaa705718/pexels-photo-3312555.jpeg');
+    }
+  }
+}

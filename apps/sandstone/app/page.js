@@ -1,10 +1,13 @@
-import Header from "@/components/Header";
-import Footer from "@/components/navigation/Footer";
+import Awards from "@/components/Awards";
+import OurPerfectTeam from "@/components/OurPerfectTeam";
+import SandsAndRoses from "@/components/SandsAndRoses";
+
 export default function Home() {
   return (
     <>
-      <Header />
-      <Footer />
+      <SandsAndRoses />
+      <OurPerfectTeam />
+      <Awards />
     </>
   );
 }

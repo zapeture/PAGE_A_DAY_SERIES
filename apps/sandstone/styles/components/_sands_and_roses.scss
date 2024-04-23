@@ -1,0 +1,21 @@
+.sands-and-roses {
+  .col-bg {
+    min-height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      min-height: 680px;
+    }
+
+    &:first-child {
+      background-image: url('https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/6fe68ac506a958a7b1d1c90a/pexels-photo-3601244.jpeg');
+    }
+
+    &:last-child {
+      background-image: url('https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/8577f908317f57d592b9fbf3/pexels-photo-4449881.jpeg');
+    }
+  }
+}
