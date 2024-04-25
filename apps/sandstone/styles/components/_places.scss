@@ -1,0 +1,17 @@
+@import "../variables";
+
+.places {
+  .places-grid {
+    margin-inline: auto;
+    max-width: 1032px;
+    min-height: 600px;
+    background-image: linear-gradient(to bottom, $sandstone-orange 0%, $sandstone-orange 40%, #fff 40%, #fff 100%);
+    .row{
+      max-width: 900px;
+      margin-inline: auto;
+      img{
+        object-fit: cover;
+      }
+    }
+  }
+}

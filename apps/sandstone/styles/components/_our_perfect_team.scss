@@ -8,6 +8,9 @@
     .row{
       max-width: 900px;
       margin-inline: auto;
+      img{
+        object-fit: cover;
+      }
     }
   }
 }
