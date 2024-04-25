@@ -1,0 +1,79 @@
+@import "../variables";
+
+.header {
+  background: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/0300a99382c25c3fb2d428de/1.jpg?version=") no-repeat center center;
+  min-height: 440px;
+
+  @include media-breakpoint-up(md) {
+    min-height: 700px;
+    background-position: center right;
+  }
+
+  .navbar {
+    .navbar-brand {
+      width: 100%;
+      max-width: 68px;
+      aspect-ratio: 3/2;
+      display: block;
+      background: url("https://capp.nicepage.com/853972dd475b19a5550d4942b742f3d61737f4de/images/default-logo.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 0px;
+    }
+
+    .navbar-toggler {
+      border: none;
+      box-shadow: none;
+      outline: none;
+
+      .navbar-toggler-icon {
+        color: $other-gray;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23999' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+    }
+
+    .offcanvas {
+      background-color: rgba($color: #000000, $alpha: 5.0);
+
+      #offcanvas-toggle-button {
+        background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFF'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+      }
+
+      a {
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+
+  .hero {
+
+    .card {
+      width: 100%;
+      border: 10px solid $sandstone-orange;
+      background: transparent;
+      color: $sandstone-orange;
+      border-radius: 0px;
+      text-align: right;
+      min-height: 340px;
+
+      .card-body {
+        word-spacing: 5px;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      min-height: 600px;
+
+      .card {
+        position: relative;
+        min-height: 540px;
+
+        .card-body {
+          bottom: 10px;
+          position: absolute;
+        }
+      }
+    }
+  }
+}

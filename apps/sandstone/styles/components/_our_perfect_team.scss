@@ -1,0 +1,16 @@
+@import "../variables";
+
+.our-perfect-team {
+  .team-grid {
+    margin-inline: auto;
+    min-height: 800px;
+    background-image: linear-gradient(to bottom, $sandstone-orange 0%, $sandstone-orange 30%, #fff 30%, #fff 100%);
+    .row{
+      max-width: 900px;
+      margin-inline: auto;
+      img{
+        object-fit: cover;
+      }
+    }
+  }
+}
