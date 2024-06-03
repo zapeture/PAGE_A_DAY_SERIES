@@ -1,5 +1,7 @@
 @import "bootstrap/scss/bootstrap.scss";
 
+$destiny-purple: #5924EC;
+
 .main-header {
   min-height: 745px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(https://ydirection.com/Destiny/assets/images/hero3.jpg);
@@ -12,5 +14,27 @@
 
   .text-sm {
     font-size: 14px;
+  }
+
+  .hero {
+    margin-top: 110px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 210px;
+    }
+
+    .hero-btn {
+      background-color: $destiny-purple;
+      border-color: $destiny-purple;
+      font-size: 12px;
+      font-weight: 500;
+      padding-inline: 24px;
+      min-height: 42px;
+
+      &:hover {
+        background-color: transparent;
+        color: $destiny-purple;
+      }
+    }
   }
 }

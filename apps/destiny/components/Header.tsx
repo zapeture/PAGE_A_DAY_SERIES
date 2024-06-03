@@ -36,6 +36,20 @@ export default function Header() {
           </div>
         </div>
       </nav>
+
+      <section className="hero w-100">
+        <div className="container-lg">
+          <div className="row">
+            <div className="col-12 col-md-6">
+              <h1 className="display-3 text-white fw-semibold mb-4">Meet Destiny, the visonary landing Page.</h1>
+              <p className="text-white fs-6">Re-targeting your audience with competitive intelligence embedded in Destiny. See it in action and then believe.
+              </p>
+
+              <button className="hero-btn btn btn-primary btn-lg text-uppercase rounded-0">Watch Intro</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
   )
 }
