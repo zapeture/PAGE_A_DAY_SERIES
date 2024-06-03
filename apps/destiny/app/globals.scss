@@ -1,0 +1,16 @@
+@import "bootstrap/scss/bootstrap.scss";
+
+.main-header {
+  min-height: 745px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(https://ydirection.com/Destiny/assets/images/hero3.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: 50% 60%;
+
+  .text-sm {
+    font-size: 14px;
+  }
+}
