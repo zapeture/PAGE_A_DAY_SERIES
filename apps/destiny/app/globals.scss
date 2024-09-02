@@ -2,6 +2,7 @@
 
 $destiny-purple: #5924EC;
 $destiny-light: #F6F6F6;
+$dim-white: #f3f3f3f3;
 
 .main-header {
   min-height: 745px;
@@ -66,7 +67,7 @@ $destiny-light: #F6F6F6;
     transition: border 0.3s ease-in;
     margin-bottom: 20px;
 
-    &:hover{
+    &:hover {
       border: 2px solid $destiny-purple;
     }
 
@@ -88,5 +89,28 @@ $destiny-light: #F6F6F6;
         font-size: 2rem;
       }
     }
+  }
+}
+
+.side-by-side-showcase {
+  width: 100%;
+  background: $dim-white;
+  padding-block: 30px;
+
+  .side-by-side-showcase-inner {
+    margin-inline: auto;
+    max-width: 970px;
+    padding-inline: 20px;
+    width: 100%;
+  }
+
+  .showcase-image {
+    max-width: 410px;
+  }
+
+  .watch-intro-btn {
+    background-color: $destiny-purple;
+    border-radius: 0px;
+    text-transform: uppercase;
   }
 }
