@@ -14,8 +14,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
-    "turbo": "^1.13.3",
-    "yarn": "^1.22.22"
+    "turbo": "^2.5.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
