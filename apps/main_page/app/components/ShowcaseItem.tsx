@@ -4,11 +4,7 @@ import { motion } from "motion/react";
 import { Project } from "../../model/project";
 import { urlForImage } from "../../sanity/lib/image";
 
-export default function ShowcaseItem({
-  project,
-}: {
-  project: Project;
-}): JSX.Element {
+export default function ShowcaseItem({ project }: { project: Project }) {
   return (
     <motion.a
       className={`col-12 col-md-6 col-lg-4 text-decoration-none ${project.status == "live" ? "live" : "upcoming"}`}
