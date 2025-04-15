@@ -5,7 +5,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-export default function Header(): JSX.Element {
+export default function Header() {
   return (
     <header className="header mt-5 mb-5">
       <div className="row">
