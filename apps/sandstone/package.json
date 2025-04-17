@@ -7,7 +7,7 @@
     "dev:turbo": "next dev -p 4040 --turbo",
     "build": "next build",
     "start": "next start -p 4040",
-    "lint": "next lint"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --max-warnings 0"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -16,9 +16,11 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "eslint": "^9.24.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.2.2",
     "sass": "^1.75.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.3.3"
   }
 }
