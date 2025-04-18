@@ -7,23 +7,21 @@
     "dev:turbo": "next dev -p 4040 --turbo",
     "build": "next build",
     "start": "next start -p 4040",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --max-warnings 0"
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "next": "14.2.2",
-    "react": "^18",
-    "react-dom": "^18"
+    "bootstrap": "^5.3.5",
+    "next": "15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.24",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
     "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.2",
-    "sass": "^1.75.0",
-    "typescript": "^5.3.3"
+    "eslint-config-next": "15.3.1",
+    "sass": "^1.86.3"
   }
 }
