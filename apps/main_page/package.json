@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 4001",
+    "dev": "next dev -p 4001 --turbo",
     "build": "next build",
     "start": "next start -p 4001",
     "lint": "eslint . --max-warnings 0",
@@ -12,27 +12,27 @@
   "dependencies": {
     "@repo/ui": "*",
     "@sanity/image-url": "1",
-    "@sanity/vision": "3",
-    "bootstrap": "5.3.2",
-    "framer-motion": "^10.16.16",
-    "next": "^14.1.0",
-    "next-sanity": "^7.0.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sanity": "3",
-    "sharp": "^0.33.1",
-    "styled-components": "6"
+    "@sanity/vision": "3.84.0",
+    "bootstrap": "5.3.5",
+    "motion": "^12.7.2",
+    "next": "^15.3.0",
+    "next-sanity": "^9.10.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sanity": "3.84.0",
+    "sharp": "^0.34.1",
+    "styled-components": "6.1.17"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^14.1.0",
+    "@next/eslint-plugin-next": "^15.3.0",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@types/bootstrap": "^5",
-    "@types/eslint": "^8.44.7",
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
     "eslint": "^8.53.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.8.3"
   }
 }

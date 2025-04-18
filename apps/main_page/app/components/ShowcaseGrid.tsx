@@ -3,7 +3,7 @@ import { Project, Projects } from "../../model/project";
 import ShowcaseItem from "./ShowcaseItem";
 
 export default async function ShowcaseGrid() {
-  const projects = await getProjects() as Projects;
+  const projects = (await getProjects()) as Projects;
 
   const sortedProjects = projects.sort((a: Project, b: Project) => {
     if (a.status === "live" && b.status !== "live") {
@@ -26,9 +26,7 @@ export default async function ShowcaseGrid() {
 
   return (
     <section className="showcase-grid">
-      <div className="row row-gap-4">
-        {renderProjects()}
-      </div>
+      <div className="row row-gap-4">{renderProjects()}</div>
     </section>
   );
 }

@@ -1,7 +1,9 @@
 import Header from "./components/Header";
 import ShowcaseGrid from "./components/ShowcaseGrid";
 
-export default function Page(): JSX.Element {
+export const revalidate = 3600;
+
+export default function Page() {
   return (
     <>
       <div className="container-xl main-content-wrapper">

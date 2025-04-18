@@ -4,7 +4,7 @@
 
 ## Project URL
 
-https://github.com/zapeture/PAGE_A_DAY_SERIES
+https://page-a-day-series-the-mountains.vercel.app
 
 ## Installation Steps
 
@@ -19,27 +19,33 @@ git clone https://github.com/zapeture/PAGE_A_DAY_SERIES
 ```
 
 ### 2. Install Dependencies
+
 After cloning, navigate into the repository directory and install the necessary dependencies. You can use either npm or yarn for this purpose:
 
 - Using npm:
+
 ```bash
 npm install
 ```
 
 - Using yarn:
+
 ```bash
 yarn
 ```
 
 ### 3. Start the Development Server
+
 Finally, to start the development server for the the_mountains app within the monorepo, execute the following command:
 
 - Using npm:
+
 ```bash
  npm run dev --workspace apps/the_mountains
 ```
 
 - Using yarn:
+
 ```bash
 yarn dev --workspace apps/the_mountains
 ```

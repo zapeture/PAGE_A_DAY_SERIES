@@ -1,10 +1,10 @@
 # Sandstone
 
-![Project Thumbnail](https://cdn.sanity.io/images/lwfqdm3j/production/a7af5ce6f34049a5a2ef566d9192276a03b9b23b-1750x742.png?fit=max&auto=format)
+![Project Thumbnail](https://cdn.sanity.io/images/lwfqdm3j/production/23621e637990d88c5e23703db0ca4f46d4ea25c6-1311x643.png?fit=max&auto=format)
 
 ## Project URL
 
-https://github.com/zapeture/PAGE_A_DAY_SERIES
+https://apad-sandstone.vercel.app
 
 ## Inspiration
 
@@ -23,27 +23,33 @@ git clone https://github.com/zapeture/PAGE_A_DAY_SERIES
 ```
 
 ### 2. Install Dependencies
+
 After cloning, navigate into the repository directory and install the necessary dependencies. You can use either npm or yarn for this purpose:
 
 - Using npm:
+
 ```bash
 npm install
 ```
 
 - Using yarn:
+
 ```bash
 yarn
 ```
 
 ### 3. Start the Development Server
+
 Finally, to start the development server for the sandstone app within the monorepo, execute the following command:
 
 - Using npm:
+
 ```bash
  npm run dev --workspace apps/sandstone
 ```
 
 - Using yarn:
+
 ```bash
 yarn dev --workspace apps/sandstone
 ```
