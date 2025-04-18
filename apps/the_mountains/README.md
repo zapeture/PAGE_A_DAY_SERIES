@@ -4,7 +4,7 @@
 
 ## Project URL
 
-https://github.com/zapeture/PAGE_A_DAY_SERIES
+https://page-a-day-series-the-mountains.vercel.app
 
 ## Installation Steps
 

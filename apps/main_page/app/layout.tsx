@@ -36,6 +36,18 @@ export const metadata: Metadata = {
       me: [`fortunechainz@gmail.com`, `${process.env.NEXT_PUBLIC_SITE_URL}`],
     },
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "A Page A Day | Fortune Zviregei",
+    description:
+      " 'A Page a Day' is more than just a repository; it's a diary of a developer's creative journey through the world of web design. Each day brings a new page, a new challenge, and a new opportunity to innovate.",
+  },
+  openGraph: {
+    title: "A Page A Day | Fortune Zviregei",
+    description:
+      " 'A Page a Day' is more than just a repository; it's a diary of a developer's creative journey through the world of web design. Each day brings a new page, a new challenge, and a new opportunity to innovate.",
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/og-image.png`],
+  },
 };
 
 export default function RootLayout({
