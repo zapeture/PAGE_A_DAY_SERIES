@@ -2,7 +2,9 @@
   "$schema": "https://turbo.build/schema.json",
   "globalDependencies": [
     "**/.env.*local",
-    "**/.env"
+    "**/.env",
+    "PORT",
+    "NEXT_PUBLIC_SITE_URL"
   ],
   "tasks": {
     "build": {
