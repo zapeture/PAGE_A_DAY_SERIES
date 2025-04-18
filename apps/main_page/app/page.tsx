@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import ShowcaseGrid from "./components/ShowcaseGrid";
 
+export const revalidate = 3600;
+
 export default function Page() {
   return (
     <>
