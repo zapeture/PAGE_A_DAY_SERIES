@@ -1,6 +1,6 @@
 # Destiny
 
-![Project Thumbnail](https://cdn.sanity.io/images/lwfqdm3j/production/23621e637990d88c5e23703db0ca4f46d4ea25c6-1311x643.png?fit=max&auto=format)
+![Project Thumbnail](https://cdn.sanity.io/images/lwfqdm3j/production/0d4b3d4011894cb298f6a49f773dfbce4f6ffdcb-1615x852.png?fit=max&auto=format)
 
 ## Project URL
 
